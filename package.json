@@ -1,0 +1,16 @@
+{
+  "author": "Massimiliano Marcon (http://marcon.me)",
+  "name": "bootstrapper",
+  "description": "Bootstraps boilerplates based on templates.",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "main": "index"
+}

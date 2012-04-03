@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var bootstrapper = require('../');
+bootstrapper.go(process.argv);
