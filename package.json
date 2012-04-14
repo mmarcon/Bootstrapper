@@ -6,7 +6,9 @@
   "repository": {
     "url": ""
   },
-  "dependencies": {},
+  "dependencies": {
+    "wrench": "1.3.8"
+    },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
