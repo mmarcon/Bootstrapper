@@ -4,7 +4,7 @@
   "description": "Handy Node.js command line application to manage templates and boilerplates.",
   "version": "0.0.1",
   "repository": {
-    "type": "git"
+    "type": "git",
     "url": "https://github.com/mmarcon/Bootstrapper.git"
   },
   "dependencies": {
