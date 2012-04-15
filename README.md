@@ -1,6 +1,6 @@
 # Bootstrapper
 
-Bootstrapper is handy Node.js command line application to manage templates and boilerplates.
+Bootstrapper is a handy Node.js command line application to manage templates and boilerplates.
 
 Bootstrapper stores user-defined templates in its template folder where they are always available every time they are needed.
 
