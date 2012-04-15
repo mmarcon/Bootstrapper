@@ -15,5 +15,6 @@
   "engines": {
     "node": "*"
   },
+  "bin": { "bootstrapper": "./bin/bootstrapper" },
   "main": "index"
 }
