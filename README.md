@@ -40,6 +40,10 @@ Create an empty template (the tool requests some information on the new template
 Add a template to the template database:
 
     mmarcon@wallace$ bootstrapper add path/to/template_directory
+
+Add a template to the template database from a remote location (tar.gz required):
+    
+    mmarcon@wallace$ bootstrapper add http://website.com/templates/nokiamaps.tar.gz
     
 Remove a template from the template database:
 
@@ -60,6 +64,3 @@ The directory contains a `log` folder (currently unused) and a `templates` folde
        |- some_subfolder
        
 `template.json` is just a little JSON file that contains name, description, author and creation date for the template.
-
-## Next steps
-I am planning on adding a command that allows for adding templates to the local database from a remote source, e.g. a GIT repository. This will provide a key capability for people to share their templates with the rest of the community.
