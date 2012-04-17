@@ -2,7 +2,7 @@
   "author": "Massimiliano Marcon (http://marcon.me)",
   "name": "bootstrapper",
   "description": "Handy Node.js command line application to manage templates and boilerplates.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/mmarcon/Bootstrapper.git"
