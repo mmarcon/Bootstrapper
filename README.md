@@ -64,3 +64,18 @@ The directory contains a `log` folder (currently unused) and a `templates` folde
        |- some_subfolder
        
 `template.json` is just a little JSON file that contains name, description, author and creation date for the template.
+
+## Remote Templates
+
+Potentially any Github repository can become a template. It just needs to contain a simple `template.json` file that looks like this:
+
+    {
+        "date": "17/04/2012",
+        "name": "HTML5 Boilerplate",
+        "description": "A rock-solid default for HTML5 awesome.",
+        "author": "http://html5boilerplate.com"
+    }
+
+As a little test I converted the well known HTML5 Boilerplate to a Bootstrapper template. After installing Bootstrapper you can add the HTML5 Boilerplate to your collection of templates by typing:
+
+    bootstrapper add https://github.com/mmarcon/html5-boilerplate/tarball/master
