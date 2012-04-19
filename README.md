@@ -37,6 +37,10 @@ Create an empty template (the tool requests some information on the new template
 
     mmarcon@wallace$ bootstrapper generate
     
+Convert current working directory into a Bootstrapper template (handy to make a Bootstrapper template out of a Github repository):
+
+    mmarcon@wallace$ bootstrapper init
+    
 Add a template to the template database:
 
     mmarcon@wallace$ bootstrapper add path/to/template_directory
