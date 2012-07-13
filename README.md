@@ -83,3 +83,5 @@ Potentially any Github repository can become a template. It just needs to contai
 As a little test I converted the well known HTML5 Boilerplate to a Bootstrapper template. After installing Bootstrapper you can add the HTML5 Boilerplate to your collection of templates by typing:
 
     bootstrapper add https://github.com/mmarcon/html5-boilerplate/tarball/master
+
+Should the `template.json` not be available the tool will guide you trough a few easy steps to just create it locally once the repository has been downloaded.
