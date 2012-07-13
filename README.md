@@ -55,7 +55,7 @@ Remove a template from the template database:
    
 Use a template (creates a new folder containing the template files):
     
-    mmarcon@wallace$ bootstrapper use
+    mmarcon@wallace$ bootstrapper use <"Template Name"|REGEXP>
     
 ## Details
 Bootstrapper stores all the data into `$HOME/.bootstrapper`.
